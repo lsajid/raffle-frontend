@@ -1,9 +1,15 @@
+import { Routes, Route } from "react-router-dom" 
+import Home from "./pages/Home"
+import NotFound from "./pages/NotFound";
 import './App.css'
 
-function App() {
+export function App() {
   return (
-      <h1>Hello World</h1>
-  )
+    <Routes>
+      <Route path="/" element={< Home />}/>
+      <Route path="*" element={< NotFound />}/>
+    </Routes>
+  );
 }
 
 export default App

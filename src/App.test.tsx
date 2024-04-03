@@ -21,7 +21,7 @@ describe('App', () => {
     });
 });
 
-describe("A statement true", () => {
+describe("A statement true sandbox initial test", () => {
     it("should be equal to 2", () => {
         expect(1+1).toEqual(2)
     })
