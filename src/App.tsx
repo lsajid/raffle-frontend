@@ -2,10 +2,10 @@ import './App.css'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+    <>
+      <h1>Hello World</h1>
+      <h2>test</h2>
+    </>
   )
 }
 
