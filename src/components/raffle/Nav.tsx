@@ -4,7 +4,7 @@ import { Ticket, ClipboardPen, Trophy, CircleUser } from "lucide-react"
 
 function Nav() {
     return (
-        <NavigationMenu>
+        <NavigationMenu className="nav-menu">
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <Ticket/>
