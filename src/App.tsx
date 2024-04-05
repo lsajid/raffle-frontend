@@ -3,12 +3,14 @@ import Home from "./pages/Home"
 import NotFound from "./pages/NotFound";
 import RaffleInfo from "./pages/RaffleInfo";
 import './App.css'
-import Nav from "./components/Nav";
+import Nav from "./components/raffle/Nav";
+import { Button } from "@/components/ui/button"
 
 export function App() {
   return (
     <>
       <Nav />
+      <Button>Hello world</Button>
       <Routes>
         <Route path="/" element={< Home />}/>
         <Route path="/raffles/:id" element={< RaffleInfo />}/>
